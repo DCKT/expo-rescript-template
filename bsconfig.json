@@ -1,0 +1,28 @@
+{
+  "name": "expo-rescript-template",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bs-dependencies": ["@rescript/react", "rescript-react-native"],
+  "bs-dev-dependencies": [],
+  "package-specs": [
+    {
+      "module": "es6-global",
+      "in-source": true
+    }
+  ],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header", "-open Belt"],
+  "ppx-flags": [],
+  "warnings": {
+    "number": "-44-30",
+    "error": "+5"
+  }
+}
