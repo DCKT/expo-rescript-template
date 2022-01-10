@@ -1,0 +1,6 @@
+.releaserc
+LICENSE
+lib/
+.expo/
+.expo-shared/
+.github/
