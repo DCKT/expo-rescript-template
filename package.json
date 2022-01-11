@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "expo-rescript-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "description": "Expo template to build mobile application with ReScript.",
   "author": "Thomas Deconinck",
